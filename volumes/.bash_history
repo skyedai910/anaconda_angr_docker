@@ -11,3 +11,8 @@ pip install pyvex
 nano
 ls
 exit
+gcc --version
+python
+exit
+cat /etc/apt/sources.list
+exit
