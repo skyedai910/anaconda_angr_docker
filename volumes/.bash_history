@@ -7,3 +7,7 @@ ls
 pwd
 ls
 exit
+pip install pyvex
+nano
+ls
+exit
