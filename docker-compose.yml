@@ -1,0 +1,11 @@
+version: "2"
+services:
+  anaconda3:
+    build: .
+    restart: unless-stopped
+    cap_add:
+      - ALL
+    volumes:
+      - "./volumes:/root"
+    ports:
+      - "8888:8888"
